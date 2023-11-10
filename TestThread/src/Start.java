@@ -9,6 +9,9 @@ public class Start {
 		Contatore c2 = new Contatore("Contatore2");
 		c2.start();	
 		
+		Contatore c3 = new Contatore("Contatore3");
+		c3.start();	
+		
 		System.out.println(Thread.currentThread().getName());		
 		System.out.println("Ciao");	
 	}
